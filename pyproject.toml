@@ -1,0 +1,13 @@
+[project]
+name = "tinyme"
+version = "1.0.0"
+description = "TinyMe DevOps Toolkit"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 120
+select = ["E", "F", "I"]
